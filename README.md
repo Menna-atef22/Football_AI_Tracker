@@ -1,5 +1,5 @@
 # Football Player Tracker
-🎥⚽ **AI-powered desktop application** that leverages computer vision and intelligent visualization to analyze football match videos and track players in real-time.
+**AI-powered desktop application** that leverages computer vision and intelligent visualization to analyze football match videos and track players in real-time. 🎥⚽
 
 ![GUI](Images/1.png)
 Designed to analyze and track football players in match videos using YOLOv8 object detection and customized real-time visualization tools. Ideal for analysts, coaches, or researchers interested in player movement and performance metrics.
