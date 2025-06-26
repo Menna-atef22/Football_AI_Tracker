@@ -1,101 +1,113 @@
 # Football Player Tracker
+🎥⚽ **AI-powered desktop application** that leverages computer vision and intelligent visualization to analyze football match videos and track players in real-time.
 
 ![GUI](Images/1.png)
-A sophisticated desktop application for tracking and analyzing football player movements in video footage using YOLO object detection and custom visualization tools.
+A powerful desktop application designed to analyze and track football players in match videos using YOLOv8 object detection and customized real-time visualization tools. Ideal for analysts, coaches, or researchers interested in player movement and performance metrics.
 
-## Features
 
-- **Video Processing**
-  - Upload and playback football match videos
-  - Real-time player detection using YOLOv8
-  - Smooth video controls (play, pause, progress tracking)
-  - Frame-by-frame analysis capabilities
+## Key Features
 
-- **Player Tracking**
-  - Automatic player detection and ID assignment
-  - Individual player selection and tracking
-  - Real-time position monitoring
-  - Velocity calculations
-  - Movement path visualization
+## 🚀 Key Features
 
-- **Data Visualization**
-  - Interactive 2D football pitch display
-  - Real-time movement tracking visualization
-  - Heat map generation for player positioning
-  - Detailed player statistics display
+###Video Processing
+- Upload and play full football match recordings  
+- Real-time player detection powered by YOLOv8  
+- Playback controls: play, pause, progress tracking  
+- Frame-by-frame inspection for detailed analysis  
 
-- **Data Analysis**
-  - Position tracking over time
-  - Speed and movement patterns analysis
-  - Export tracking data to CSV format
-  - Comprehensive player statistics
+###Player Tracking
+- Automatically detect and assign IDs to players  
+- Select and track specific players individually  
+- Monitor positions and velocities in real-time  
+- Visualize movement paths directly on the field  
+
+###Data Visualization
+- Interactive 2D football pitch view  
+- Live visualization of player trajectories  
+- Heat map generation based on player movement  
+- In-depth performance and statistics per player  
+
+###Data Analysis
+- Monitor player position over time  
+- Calculate speeds and movement patterns  
+- Export tracking data to CSV  
+- Generate comprehensive match statistics  
+
+---
+
  
-## Video Demonstration
+##Video Demo
+
+Watch a demonstration of the application in action:
 
 https://github.com/user-attachments/assets/366068e0-343a-4eea-b11c-607ea9789da7
 
 ## Prerequisites
 
-Make sure you have the following installed:
 
-- Python 3.8 or higher
-- OpenCV (cv2)
-- NumPy
-- PIL (Python Imaging Library)
-- CustomTkinter
-- Ultralytics YOLO
-- SciPy
+Ensure you have the following installed:
 
+- Python 3.8+
+- OpenCV (`cv2`)
+- NumPy  
+- Pillow (`PIL`)
+- CustomTkinter  
+- Ultralytics YOLO  
+- SciPy  
 
-## Usage
+##Getting Started
 
-1. Start the application:
+### Run the App:
 ```bash
 python FootballMatch_AITracker.py
 ```
 
-2. Using the application:
-   - Click "Upload Video" to select a football match video
-   - Use the play/pause controls to control video playback
-   - Select a player from the dropdown to track their movement
-   - Toggle tracking to start/stop movement analysis
-   - View real-time statistics and heat maps
-   - Export tracking data when needed
+##How to Use
+
+1. Click **"Upload Video"** and choose a football match recording  
+2. Use the playback controls to navigate the video  
+3. Select a player from the dropdown menu  
+4. Toggle **"Track"** to start or stop tracking  
+5. View real-time movement and statistics  
+6. Export the collected tracking data if needed  
+
+---
 
 ## Features in Detail
 
-### Video Controls
-- Upload and play video files
-- Play/Pause functionality
-- Progress bar with time display
-- Frame-by-frame processing capability
+###Video Controls
+- Upload local video files  
+- Play/Pause functionality  
+- Timeline progress bar with timestamp  
+- Analyze video frame-by-frame  
 
-### Player Tracking
-- Automatic player detection using YOLO
-- Unique ID assignment to each player
-- Individual player selection
-- Real-time position tracking
-- Movement path visualization
+###Player Tracking
+- Player detection powered by **YOLOv8**  
+- Assigns unique IDs for each player  
+- Track selected players individually  
+- Visual overlay of movement paths  
 
-### Data Visualization
-- 2D pitch representation
-- Real-time movement tracking
-- Heat map generation
-- Statistical data display
+###Visualization
+- Real-time player movement shown on a 2D pitch  
+- Generate heat maps based on movement patterns  
+- Live display of player statistics  
 
-### Analysis Tools
-- Position tracking
-- Velocity calculations
-- Movement pattern analysis
-- Data export functionality
+###Data Analysis
+- Track player movement and speed over time  
+- Identify movement zones and behavior patterns  
+- Export all tracking and stats as CSV reports  
 
-## Technical Details
+---
 
-- Built with Python and CustomTkinter for modern UI
-- Uses YOLOv8 for real-time player detection
-- Implements efficient frame processing algorithms
-- Features custom tracking algorithm for player identification
-- Utilizes SciPy for heat map generation
+##Technical Details
+
+- Built with **Python** and **CustomTkinter** for a clean modern interface  
+- Integrates **YOLOv8** for real-time object detection  
+- Efficient frame processing for smooth playback and analysis  
+- Implements custom tracking algorithms for ID consistency  
+- Uses **SciPy** for generating heat maps and data plots  
+
+---
 
 ## Acknowledgments
 
